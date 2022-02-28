@@ -1,8 +1,8 @@
-#5127830572:AAFZhd_S5ZUHwOgs1jjcqsU8BryajrMAIXQ
 import telebot
 from api_data import *
+from bot_token import *
 
-bot = telebot.TeleBot("5127830572:AAFZhd_S5ZUHwOgs1jjcqsU8BryajrMAIXQ")
+bot = telebot.TeleBot(bot_token)
 
 
 #@bot.message_handler(commands=["help","start"])
