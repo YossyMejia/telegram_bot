@@ -8,7 +8,6 @@ def getCoinPrice(coin_id):
                                                                          "vs_currency=usd&days=0&interval=0"
         response = requests.get(link)
         data = json.loads(response.text)
-        print(data)
         if("prices" in data):
             # Get the prices in the market information
             data = data['prices']
